@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #a99ed3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.title {
+    margin-top: 40px;
+    font-size: 2.4rem;
+    color: #9785d0;
+    text-shadow: 1px 1px 2px #9785d0;
+}
+
+
+form {
+    margin-top: 30px;
+    background: #93a3e7;
+    padding: 35px;
+    border-radius: 30px;
+    width: 450px;
+    margin-bottom: 30px;
+
+
+    box-shadow:
+        10px 10px 20px #726ac3,
+        -10px -10px 20px #42447e;
+}
+
+input {
+    width: 93%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border: none;
+    background: #e0e0e0;
+
+    box-shadow:
+        inset 6px 6px 10px #bebebe,
+        inset -6px -6px 10px #ffffff;
+
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+
+input:focus {
+    outline: none;
+    box-shadow:
+        inset 3px 3px 6px #a99ed3,
+        inset -3px -3px 6px #ad94ff;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+    background: #5978dc;
+
+    box-shadow:
+        6px 6px 12px #726ac3,
+        -6px -6px 12px #ad94ff;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow:
+        4px 4px 10px #1f5ec9,
+        -4px -4px 10px #b5a6ec;
+}
+
+button:active {
+    box-shadow:
+        inset 6px 6px 12px #9785d0,
+        inset -6px -6px 12px #9785d0;
+}
+
+
+.contact {
+    margin-top: 40px;
+    width: 90%;
+    max-width: 900px;
+    padding: 25px;
+
+    background: #f1e2ed;
+    border-radius: 25px;
+
+    box-shadow:
+        10px 10px 20px #d8ceed,
+        -10px -10px 20px #d8ceed;
+
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+th {
+    background: #93a3e7;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: black;
+    border-radius: 12px;
+
+    box-shadow:
+        inset 6px 6px 12px #568ddf,
+        inset -6px -6px 12px #568ddf;
+}
+
+td {
+    padding: 14px;
+    margin: 8px 0;
+    background: #f1e2ed;
+    border-radius: 12px;
+    font-size: 0.95rem;
+
+    box-shadow:
+        inset 4px 4px 8px #d8ceed,
+        inset -4px -4px 8px #d8ceed;
+}
+
+
+tr:hover td {
+    background: #5978dc;
+
+    box-shadow:
+        inset 4px 4px 8px #b5a6ec,
+        inset -4px -4px 8px #b5a6ec;
+}
